@@ -11,7 +11,7 @@ function test()
 
 function bodybg()
 {
-    document.getElementsByTagName("body").style.background = "red";
+    document.querySelector("body").style.backgroundColor="red";
 }
 
 
